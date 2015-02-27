@@ -15,6 +15,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('tracker-profiler');
+  api.use('slava:tracker-profiler');
   api.addFiles('tracker-profiler-tests.js');
 });
